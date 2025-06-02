@@ -18,12 +18,12 @@ body {
   display: flex;
 }
 
-li {
-  list-style: none;
+h1, h2, h3, h4 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 section {
-  padding: 4rem 6rem;
+  padding: 4rem 0 4rem 6rem;
   min-height: 100vh;
   max-width: 75vw;
 }
@@ -39,6 +39,7 @@ nav {
 }
 
 nav li {
+  list-style: none;
   margin: 1rem auto;
   line-height: 2rem;
   background: linear-gradient(to left, white 50%, var(--accent) 50%) right;
@@ -68,10 +69,46 @@ h1 {
 }
 
 #introduction li {
+  list-style: none;
   margin: 1rem 0;
 }
 
+/* PROBLEM AND GOAL */
+#problem {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+#problem img {
+  width: 20rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  max-height: 90vh;
+}
+
+#problem h2 {
+  margin-bottom: 1rem;
+}
+
+#problem p {
+  margin: 1rem 0;
+}
+
+#problem li {
+  margin-left: 4rem;
+  margin-bottom: 0.5rem;
+}
+
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1000px) {
+  #problem {
+    flex-wrap: wrap;
+  }
+  #problem img {
+    margin: 2rem auto 0;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     display: none;

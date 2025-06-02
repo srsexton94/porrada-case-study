@@ -18,14 +18,43 @@ body {
   display: flex;
 }
 
-h1, h2, h3, h4 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 section {
   padding: 4rem 0 4rem 6rem;
   min-height: 100vh;
   max-width: 75vw;
+}
+
+/* BUTTONS */
+
+button {
+  background-color: white;
+  border-radius: 0.25rem;
+  border: 1px solid darkgray;
+  box-shadow: rgba(255, 255, 255, 0.7) 1px 1px 0 0 inset;
+  color: #4e4e4e;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+button:hover,
+button:focus {
+  background-color: lightgray;
+}
+
+button:active {
+  background-color: lightgray;
+  box-shadow: none;
 }
 
 /* NAVBAR */
@@ -76,7 +105,6 @@ h1 {
 /* PROBLEM AND GOAL */
 #problem {
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 #problem img {
@@ -98,6 +126,19 @@ h1 {
   margin-left: 4rem;
   margin-bottom: 0.5rem;
 }
+
+/* USER PERSONAS */
+#personas .heading,
+#personas .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#personas .controls {
+  gap: 1rem;
+}
+
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {

@@ -1,0 +1,25 @@
+#personas .heading,
+#personas .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#personas .controls {
+  gap: 1rem;
+}
+
+.persona-container {
+  display: none;
+  border: 1px solid black;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.persona-container img {
+  width: 20rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0.25rem var(--accent);
+}

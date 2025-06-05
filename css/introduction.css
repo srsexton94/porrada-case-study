@@ -1,0 +1,14 @@
+h1 {
+  font-size: 3rem;
+}
+
+#introduction .subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1rem 0 4rem;
+}
+
+#introduction li {
+  list-style: none;
+  margin: 1rem 0;
+}

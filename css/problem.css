@@ -1,0 +1,23 @@
+#problem {
+  display: flex;
+}
+
+#problem img {
+  width: 20rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  max-height: 90vh;
+}
+
+#problem h2 {
+  margin-bottom: 1rem;
+}
+
+#problem p {
+  margin: 1rem 0;
+}
+
+#problem li {
+  margin-left: 4rem;
+  margin-bottom: 0.5rem;
+}
